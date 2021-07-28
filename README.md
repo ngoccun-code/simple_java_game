@@ -1,5 +1,5 @@
-# A simple game in Java 
-My very fist and simple game programmed in Java
+# :video_game: A simple game in Java 
+My very fist and simple game programmed in Java 
 
 ## Description 
 In this game, there are two different types of character: people and virus. The player can choose to be a person or a virus. All people and virus will move randomly in the game board. When a person comes into contact with the virus, the person and the virus then stop moving and this person is considered infected.
