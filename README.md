@@ -11,13 +11,8 @@ Player tasks:
  
 
 ## Visuals
-<img
-src=“demo.png”
-raw=true
-alt=“Demo”
-style=“margin-right: 10px;”
-/>
+[My demo](ngoccun-code.github.com/simple_java_game/demo.png)
 
 ## Contributing 
-background music: https://www.chosic.com/
-crash sound effect: https://mixkit.co/
+- background music: https://www.chosic.com/
+- crash sound effect: https://mixkit.co/
