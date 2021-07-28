@@ -1,4 +1,4 @@
-package Audio;
+package Model;
 
 import java.net.URL;
 
@@ -6,10 +6,10 @@ import javafx.scene.media.AudioClip;
 import javafx.scene.media.Media;
 import javafx.scene.media.MediaPlayer;
 
-public class AudioPlayer implements AudioPlayerInterface {
+public class AudioPlayer {
 
-	private static final String BACKGROUND_MUSIC_FILE = "Music.wav";
-	private static final String CRASH_SOUND_FILE = "Crash.wav";
+	private static final String BACKGROUND_MUSIC_FILE = "music.mp3";
+	private static final String CRASH_SOUND_FILE = "crash.wav";
 
 	private static final double CRASH_SOUND_VOLUME = 0.5;
 
@@ -25,7 +25,6 @@ public class AudioPlayer implements AudioPlayerInterface {
 		this.crashPlayer = new AudioClip(convertNameToUrl(CRASH_SOUND_FILE));
 	}
 
-	@Override
 	public void playBackgroundMusic() {
 		if (isPlayingBackgroundMusic()) {
 			return;
@@ -35,19 +34,16 @@ public class AudioPlayer implements AudioPlayerInterface {
 		this.musicPlayer.play();
 	}
 
-	@Override
 	public void stopBackgroundMusic() {
 		if (isPlayingBackgroundMusic()) {
 			this.musicPlayer.stop();
 		}
 	}
 
-	@Override
 	public boolean isPlayingBackgroundMusic() {
 		return MediaPlayer.Status.PLAYING.equals(this.musicPlayer.getStatus());
 	}
 
-	@Override
 	public void playCrashSound() {
 		crashPlayer.play(CRASH_SOUND_VOLUME);
 	}

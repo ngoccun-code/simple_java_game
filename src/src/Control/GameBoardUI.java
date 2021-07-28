@@ -7,7 +7,7 @@ import java.util.TimerTask;
 
 import Application.GameBoard;
 import Application.GameOutcome;
-import Audio.AudioPlayer;
+import Model.AudioPlayer;
 import Model.Dimension2D;
 import Model.People;
 import Model.Point2D;
@@ -84,7 +84,7 @@ public class GameBoardUI extends Canvas {
 		}
 		///////
 		
-		this.gameBoard = new GameBoard(size, playerCharacter);
+		this.gameBoard = new GameBoard(size, playerCharacter, this.gameToolBar.getNumberOfEnermies());
 		
 		this.gameBoard.setAudioPlayer(new AudioPlayer());
 		widthProperty().set(size.getWidth());

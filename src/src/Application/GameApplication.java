@@ -9,7 +9,7 @@ import javafx.scene.layout.GridPane;
 import javafx.scene.layout.Pane;
 import javafx.stage.Stage;
 
-public class BumpersApplication extends Application {
+public class GameApplication extends Application {
 
 	private static final int GRID_LAYOUT_PADDING = 5;
 	private static final int GRID_LAYOUT_PREF_HEIGHT = 350;
@@ -26,7 +26,7 @@ public class BumpersApplication extends Application {
 
 		// scene and stages
 		Scene scene = new Scene(gridLayout);
-		primaryStage.setTitle("Bumpers");
+		primaryStage.setTitle("Virus Crush");
 		primaryStage.setScene(scene);
 		primaryStage.setOnCloseRequest(closeEvent -> gameBoardUI.stopGame());
 		primaryStage.show();
