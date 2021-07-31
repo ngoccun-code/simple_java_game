@@ -11,7 +11,10 @@ Player tasks:
  
 
 ## Visuals
-[My demo](https://github.com/ngoccun-code/simple_java_game/blob/main/demo.png)
+<p align="center">
+  <a href="" rel="noopener">
+ <img width=200px height=200px src="https://github.com/ngoccun-code/simple_java_game/blob/main/demo.png" alt="Demo"></a>
+</p>
 
 ## Contributing 
 - background music: https://www.chosic.com/
