@@ -13,7 +13,7 @@ Player tasks:
 ## Visuals
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="https://github.com/ngoccun-code/simple_java_game/blob/main/demo.png" alt="Demo"></a>
+ <img src="https://github.com/ngoccun-code/simple_java_game/blob/main/demo.png" alt="Demo"></a>
 </p>
 
 ## Contributing 
